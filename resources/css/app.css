@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply block px-4 py-2 border rounded-sm;
+}
+.input-group {
+    @apply block mb-2;
+}
+.input-label {
+    @apply block pb-2;
+}
+.input-control {
+    @apply block px-4 py-2 w-full border rounded-sm;
+}
+
+.action-links {
+    @apply flex items-center space-x-2 py-2 mb-4;
+}
